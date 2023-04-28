@@ -1,4 +1,4 @@
-# Q1. Summary
+# Project Summary
 
 - Got dataset of tumor samples taken from breast tissue as either "benign" or "malignant" based on 9 quantitative measurements.
 - Trained KNN-classifier on the above dataset and achieved good results.
@@ -10,7 +10,7 @@
 - Tested various sets of parameters on the initial training from the base ViT model to see how the model is able to adapt to the new task
 - Had a lot of fun
 
-# Q2. Dataset
+# Dataset
 
 ## Link
 
@@ -22,7 +22,7 @@ https://www.kaggle.com/datasets/mohamedhanyyy/chest-ctscan-images
 
 Consists of a bunch of CT scans of the chest region with labels corresponding to no cancer, adenocarcinoma, large cell carcinoma, and squamous cell carcinoma. (Various types of lung cancers.)
 
-# Q3. Details
+# Detailed Approach
 
 **Vision Transformer (ViT):** https://huggingface.co/docs/transformers/model_doc/vit
 

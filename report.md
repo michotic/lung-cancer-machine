@@ -1,7 +1,5 @@
 # Project Summary
 
-- Got dataset of tumor samples taken from breast tissue as either "benign" or "malignant" based on 9 quantitative measurements.
-- Trained KNN-classifier on the above dataset and achieved good results.
 - Got a dataset of CT scan images of the torso region with 4 different labels corresponding to no cancer & 3 types of cancer from almighty Kaggle
 - Imported a Vision Transformer (ViT) pre-trained model on image classifcation for its weights and architecture
 - Removed its activation layer for 1000 labels and added my own based on my dataset
@@ -26,7 +24,6 @@ Consists of a bunch of CT scans of the chest region with labels corresponding to
 
 **Vision Transformer (ViT):** https://huggingface.co/docs/transformers/model_doc/vit
 
-- The KNN model was pretty straight-forward and done early-on so I'll try to be brief. It was trained to classify breast tissue tumor samples as either benign or malignant based on 9 physical measurements. It got somewhere in the low-mid 90%'s in performance but it's a really boring model so I'll leave it there.
 - I found the CT scan dataset on Kaggle because I figure that there's big opportunities in applying machine learning to medical scanning technology, so I was curious to see what I could do with little to no medical-related knowledge outside of a bioinformatics course I took last year.
 - Converted the whole dataset to JPEG's because my image processor and model enjoyed "RGB" much more than "RGBA"
 - I chose the ViT model for the task of diagnosing multiple types of cancer due because the model architecture and pre-trained weights seemed like they could be valuable to the task at hand. It's an encoder-decoder model that processes images in a bunch of small patches. Considering cancer can appear in the form of small patches and be found in various locations within the body, it seemed like there could be potential for the encoder-decoder architecture in being applied to this task.
